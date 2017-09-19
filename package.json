@@ -1,6 +1,6 @@
 {
   "name": "id003",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "ID003 module",
   "main": "./",
   "directories": {
@@ -13,7 +13,9 @@
     "type": "git",
     "url": "git://github.com/lamassu/id003"
   },
-  "keywords": ["id003"],
+  "keywords": [
+    "id003"
+  ],
   "author": "Lamassu",
   "bugs": {
     "url": "https://github.com/lamassu/id003/issues"
