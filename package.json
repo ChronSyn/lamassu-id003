@@ -13,9 +13,7 @@
     "type": "git",
     "url": "git://github.com/lamassu/id003"
   },
-  "keywords": [
-    "id003"
-  ],
+  "keywords": ["id003"],
   "author": "Lamassu",
   "bugs": {
     "url": "https://github.com/lamassu/id003/issues"
@@ -24,6 +22,6 @@
   "private": true,
   "dependencies": {
     "lodash": "~4.17.4",
-    "serialport": "~4.0.7"
+    "serialport": "~5.0.0"
   }
 }
