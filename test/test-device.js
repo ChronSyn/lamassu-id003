@@ -20,7 +20,7 @@ const Id003 = require('../lib/id003.js');
 const connection = Id003.factory({
   rs232: {
     device: '/dev/serial/by-id/usb-FTDI_FT232R_USB_UART_A50285BI-if00-port0',
-    baudRate: 115200,
+    baudRate: 9600,
   },
 });
 
