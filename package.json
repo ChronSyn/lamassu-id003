@@ -24,6 +24,6 @@
   "private": true,
   "dependencies": {
     "lodash": "~4.17.4",
-    "serialport": "~5.0.0"
+    "serialport": "~6.0.0"
   }
 }
