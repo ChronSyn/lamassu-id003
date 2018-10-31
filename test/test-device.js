@@ -20,6 +20,7 @@ connection.run(() => {
   connection.on('billRefused', () => console.log('billRefused'));
   connection.on('standby', () => {
     console.log(connection.getVersion());
+    connection.enable();
   });
   connection.on('stackerOpen', () => console.log('stackerOpen'));
   connection.on('error', err => console.log('error', err));
