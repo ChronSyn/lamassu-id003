@@ -10,7 +10,7 @@ const connection = Id003.factory({
 connection.run(() => {
   connection.on('billRead', data => {
     console.log('billRead', data);
-    connection.reject();
+    connection.stack();
     // connection.stack();
   });
   connection.on('dispatch', data => console.log('dispatch', data));
@@ -24,4 +24,6 @@ connection.run(() => {
   });
   connection.on('stackerOpen', () => console.log('stackerOpen'));
   connection.on('error', err => console.log('error', err));
+  connection.on('acceptorJam', (err) => console.log('acceptorJam'));
+  connection.on('stackerJam', (err) => console.log('stackerJam'));
 });

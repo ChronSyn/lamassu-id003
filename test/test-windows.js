@@ -29,5 +29,6 @@ connection.run((error) => {
     connection.on('billRefused', () => console.log('billRefused'));
     connection.on('standby', (data) => console.log('standby', data));
     connection.on('stackerOpen', () => console.log('stackerOpen'));
-    connection.on('error', (err) => console.log('error', err));
+    connection.on('acceptorJam', (err) => console.log('acceptorJam'));
+    connection.on('stackerJam', (err) => console.log('stackerJam'));
 });
