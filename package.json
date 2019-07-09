@@ -23,7 +23,7 @@
   "homepage": "https://github.com/lamassu/id003",
   "private": true,
   "dependencies": {
-    "lodash": "~4.17.4",
-    "serialport": "~6.0.0"
+    "lodash": "^4.17.11",
+    "serialport": "^7.1.5"
   }
 }
